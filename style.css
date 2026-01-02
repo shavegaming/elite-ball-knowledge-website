@@ -1,0 +1,82 @@
+/* Reset + Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #7f00ff, #1f7fff);
+  color: #fff;
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 220px;
+  background: rgba(0,0,0,0.5); /* dark translucent */
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(5px); /* slight blur for modern effect */
+  border-right: 1px solid rgba(255,255,255,0.1);
+}
+
+.sidebar a {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.sidebar a:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+/* Main content */
+main {
+  margin-left: 240px;
+  padding: 2rem;
+}
+
+/* Article cards */
+article {
+  background: rgba(0,0,0,0.25); /* transparent dark */
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  border: 1px solid rgba(255,255,255,0.05); /* subtle border for separation */
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+/* Paragraphs and lists */
+p, li {
+  color: #e0e0ff;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: rgba(0,0,0,0.5);
+  margin-top: 2rem;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
