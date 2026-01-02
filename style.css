@@ -1,52 +1,59 @@
-/* Base + Reset */
-* {margin:0; padding:0; box-sizing:border-box;}
-body {
-  font-family:'Inter', sans-serif;
-  background: linear-gradient(135deg,#7f00ff,#1f7fff);
-  color:#fff;
-  min-height:100vh;
-  line-height:1.6;
-}
-a {text-decoration:none; color:inherit;}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BTT Console - Require Script Wiki</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-/* Sidebar */
-.sidebar {
-  position:fixed;
-  top:0;
-  left:0;
-  height:100%;
-  width:200px;
-  background:rgba(0,0,0,0.5);
-  padding:2rem 1rem;
-  display:flex;
-  flex-direction:column;
-}
-.sidebar a {
-  margin-bottom:1rem;
-  font-weight:600;
-  padding:0.4rem 0.6rem;
-  border-radius:6px;
-  transition:background 0.2s;
-}
-.sidebar a:hover {background:rgba(255,255,255,0.1);}
+<div class="sidebar">
+  <a href="index.html">Home</a>
+  <a href="btt-console.html">BTT Console</a>
+  <a href="btt-chat-hax.html">BTT Chat Hax</a>
+  <a href="exser-archives.html">ExSer Archives</a>
+</div>
 
-/* Main Content */
-main {
-  margin-left:220px;
-  padding:2rem;
-}
-h1,h2 {margin-bottom:1rem;}
-article {
-  background:rgba(0,0,0,0.4);
-  padding:1.5rem;
-  border-radius:12px;
-  margin-bottom:2rem;
-}
+<main>
+  <h1>BTT Console</h1>
 
-/* Footer */
-footer {
-  text-align:center;
-  padding:1rem;
-  background:rgba(0,0,0,0.4);
-  margin-top:2rem;
-}
+  <article>
+    <h2>Overview</h2>
+    <p><strong>BTT Console</strong> is the most widely used Roblox require script hub, created by Bacon The Thing (BTT). It serves as a gateway for users to access multiple scripts, modules, and utilities through require scripts.</p>
+  </article>
+
+  <article>
+    <h2>Key Features</h2>
+    <ul>
+      <li>Graphical hub interface that organizes multiple scripts</li>
+      <li>Easy module loading for popular require scripts</li>
+      <li>Frequently referenced in community archives and backups</li>
+      <li>Enabled safe experimentation with scripts without manually copying code</li>
+    </ul>
+  </article>
+
+  <article>
+    <h2>Impact on the Community</h2>
+    <p>BTT Console helped centralize access to the require script ecosystem. Many scripts and hubs referenced it as a core dependency. Its influence is notable because:</p>
+    <ul>
+      <li>It inspired scripts like <strong>BTT Chat Hax</strong></li>
+      <li>It set UI standards for future hubs</li>
+      <li>It was archived by members like <strong>ExSer</strong> to preserve the history of the community</li>
+    </ul>
+  </article>
+
+  <article>
+    <h2>Legacy</h2>
+    <p>Even though BTT has left the require script community, BTT Console remains a central reference in archived scripts. Community historians and archive maintainers often use it as a case study for hub design and module management in Roblox.</p>
+  </article>
+
+</main>
+
+<footer>
+  &copy; 2026 Require Script Wiki
+</footer>
+
+</body>
+</html>
+
